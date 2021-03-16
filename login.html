@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Log in</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <header>
-    <h1>Login</h1>
+    <img class="login-image" src="book-of-the-month-club-stack-of-books.jpg" height="72" width="100" border="1px" >
     <nav>
-        <ol>
+        <ol class="login-navbar">
             <li><a href="#">Sign up</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="FrontEndAssignment1.html">Home</a></li>
         </ol>
     </nav>
-</header>
-<h2>User Login </h2>
-<form>
-    <label>User Name :</label>
-    <input type="text" name="user name" placeholder="User Name">
 
-    <label> Password:</label>
+</header>
+<h2 class="user-login">User Login </h2>
+<form class="form">
+    <input type="text"  placeholder="User Name">
     <input type="password" name="password" placeholder="Password">
-    <input type="reset" name="reset" value="Reset">
-    <input type="submit" name="Sign in" value="Sign in" >
+    <input class="reset" type="reset" name="reset" value="Reset">
+    <input class="sign-in" type="submit" name="Sign in" value="Sign in" >
 </form>
-<footer><span>© 2021 My book Corporation or its affiliates. All Rights reserved.</span> </footer>
+<footer class="login-footer"><span >© 2021 My book Corporation or its affiliates. All Rights reserved.</span> </footer>
 </body>
 </html>

@@ -3,30 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>My Book</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <header>
-    <img src="top-10-books-every-college-student-read-1024x640.jpeg" height="260" width="270" border="1px" >
-    <nav>
-        <ol>
-            <li> <a href="#">My Book</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li> <a href="login.html">Login</a></li>
+        <img src="book-of-the-month-club-stack-of-books.jpg" height="72" width="100" border="1px" >
+        <ol class="navbar">
+            <li > <a href="#" class="nav-a">My Book </a></li>
+            <li><a href="#"class="nav-a">About</a></li>
+            <li><a href="#"class="nav-a">Contact</a></li>
+            <li class="login"> <a href="login.html"class="nav-a">Login</a></li>
         </ol>
-    </nav>
+
 </header>
 <h1> Welcome to the book store</h1>
-<p>Our offers :</p>
+<p class="first-paragraph">Our offers </p>
+<div class="left-container">
 <h2> Free account</h2>
 <p>Limited access 5 hours per day.</p>
 <p>Can download 3 books in a day.</p>
 <p>Can access 1000 books.</p>
+</div>
+<div class="right-container">
 <h2> Premium account</h2>
 <p>Unlimited access.</p>
 <p>Unlimited download.</p>
 <p>Can access the whole library including the following books.</p>
-<img src="books.jpg" height="280" width="300" border="1px">
+    <img class="img-right" src="books.jpg" height="210" width="300" border="1px">
+</div>
+
+<div class="aside">
 <h2>Our books store :</h2>
 <nav>
     <ul>
@@ -51,6 +60,7 @@
             </ol></li>
     </ul>
 </nav>
+</div>
 <footer><span>© 2021 My book Corporation or its affiliates. All Rights reserved.</span> </footer>
 </body>
 </html>
